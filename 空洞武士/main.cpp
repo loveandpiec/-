@@ -88,7 +88,7 @@ int main(int argc, char** argv)
 		if (sleep_duration > nanoseconds(0))
 			std::this_thread::sleep_for(sleep_duration);
 	}
-	EndBatchDraw();
+	EndBatchDraw(); 
 
 	return 0;
 }
